@@ -1,0 +1,37 @@
+.stripe-element input {
+    /* Styles for the input fields */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .stripe-element input::placeholder {
+    /* Styles for the input placeholders */
+    color: #999;
+  }
+  
+  .stripe-element input:focus {
+    /* Styles for the focused input fields */
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .stripe-element .StripeElement--invalid {
+    /* Styles for invalid input fields */
+    border-color: #dc3545;
+  }
+  
+  .stripe-element .StripeElement--webkit-autofill {
+    /* Styles for autofilled input fields (Webkit browsers) */
+    background-color: #fefde5 !important;
+    background-image: none !important;
+    color: #666 !important;
+  }
+  
+  .stripe-element .StripeElement--complete {
+    /* Styles for complete input fields (when all required data is filled) */
+    border-color: #28a745;
+  }
+  

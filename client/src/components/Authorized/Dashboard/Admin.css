@@ -1,0 +1,23 @@
+/* .box{
+    width: 70%;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+} */
+
+Grid.box{
+    border: 5px solid black;
+    
+}
+
+.Box {
+  /* margin-bottom: 20px; */
+  transition: background-color 0.3s ease;
+}
+
+.Box:hover {
+  background-image: linear-gradient(to right, #d9f4d4, #a8c290)
+}
+.doughnutData{
+  width:100px
+}

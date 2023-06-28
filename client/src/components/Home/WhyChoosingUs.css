@@ -1,0 +1,26 @@
+/* .imageCard{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+} */
+
+      
+    .our-history-area#section-template--14397371580514__1650880520dc2a6427{
+        padding-top:10px;
+        padding-bottom:0px;
+        
+            background-color: #ffffff;
+        
+    } 
+      @media (max-width: 767px) {
+        .our-history-area#section-template--14397371580514__1650880520dc2a6427{
+          padding-top: 10px;
+          padding-bottom: 0px;
+        }
+      }
+      

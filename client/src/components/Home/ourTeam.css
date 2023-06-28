@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+.bg{
+     background-image: url(../../images/eco-friendly-natural-plate-with-spoon-fork-knife-set-of-disposable-ecological-dishes-in-hands-on-green-grass-background-sustainability-of-planet-2E9P0CJ-transformed\ \(1\).jpeg); 
+    /* background-image: url(https://t4.ftcdn.net/jpg/02/58/48/95/360_F_258489597_q3pgNvUjj577MjNwgPTYh0aAyGlyN1F3.jpg); */
+    background-repeat:no-repeat ;
+    background-size: cover;
+   
+    opacity: 0.9; 
+}
+.team-bg {
+    height: 200px;
+    
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+
+.team-bg-2{
+    background-image: url(../../images/logoo.png);
+}
+.team-bg-3{
+    background-image: url(../../images/logoo.png);
+}.team-bg-1{
+    background-image: url(../../images/logoo.png);
+}
+.feature-bg::after {
+    background-image: url(../../images/Bg2.jpeg);
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    content: "";
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    -webkit-box-shadow: 0 0 20px #cacaca;
+    box-shadow: 0 0 20px #cacaca;
+    border-bottom-left-radius: 5px;
+}

@@ -1,0 +1,18 @@
+/* .order-details-base{
+    display: grid;
+
+} */
+.gridHeader {
+    /* Custom styles for the header */
+    font-weight: bold;
+    
+  }
+  .gridCell {
+    /* Custom styles for the cells */
+
+  }
+  .gridCellStatus{
+    color: red;
+    font-style: italic;
+    text-align: right;
+  }

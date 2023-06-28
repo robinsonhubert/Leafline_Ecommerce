@@ -1,0 +1,76 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("https://media.istockphoto.com/id/1146491866/photo/green-banana-leaf.jpg?s=612x612&w=0&k=20&c=Qjlha-KIeVxMRkixFRUqXx0EfUWVf-YMyn1Vca5D4Yg=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.banner.productpage {
+  background-position: 100% 100%;
+  padding: 200px 0;
+}
+
+.banner .banner-title {
+  font-size: 60px;
+  /* font-weight: 00; */
+  color: #fff;
+  font-family: Poppins, Opens-serif;
+
+}
+
+.fast-breadcrumb li {
+  padding-right: 20px;
+}
+
+.fast-breadcrumb li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18;
+}
+
+.fast-breadcrumb li.active {
+  color: green;
+}
+.fast-breadcrumb li:last-child {
+  padding-right: 0;
+}
+
+.fast-breadcrumb li.active::before {
+  content: '/';
+  position: relative;
+  top: 2px;
+  left: -10px;
+  background-size: 13px;
+  width: 12px;
+  height: 17px;
+  color:white
+}
+
+.wrapper {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.container2 {
+  max-width: 960px;
+  width: 100%;
+  /* text-align: left; */
+  margin-top: 150px;
+}
+

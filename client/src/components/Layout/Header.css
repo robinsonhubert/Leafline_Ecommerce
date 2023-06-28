@@ -1,0 +1,208 @@
+@import url('https://fonts.cdnfonts.com/css/krylon');
+@import url('https://fonts.cdnfonts.com/css/bodoni');
+
+
+
+.navbar.transparent {
+  background-color: transparent !important;
+}
+
+.container-fluid.main {
+  position: relative;
+  /* To make the navbar positions relative to this container */
+  padding: 0;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.container-fluid.main .navbar {
+  position: fixed
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: transparent;
+  /* background-color: black; */
+  transition: background-color 0.3s;
+  /* Make the menu become transparent */
+  border-radius: 10px;
+  border: 5;
+  box-shadow: none;
+  padding: 5px;
+  position: absolute;
+  /* Make the menu out of the document flow so it can placed anywhere without disturbing other widgets */
+
+  left: 0;
+  right: 0;
+  z-index: 10;
+  /* If you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
+}
+
+.navbar {
+  transition: background-color 0.3s;
+  overflow: visible;
+
+}
+
+.navbar.active {
+  position: fixed;
+  background-color: aqua;
+  z-index: 999;
+  top: 0%;
+  width: 100%;
+  height: 10%;
+  box-shadow: 0 2px 5px #000;
+  left: 0;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Krylon', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.carousel .background {
+  /* background-position: center center; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+@media (max-width:991px) {
+  .carousel .background {
+    background-size: cover;
+    /* To make the background image looks good */
+  }
+}
+
+.carousel .background.a {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("https://media.istockphoto.com/id/1146491866/photo/green-banana-leaf.jpg?s=612x612&w=0&k=20&c=Qjlha-KIeVxMRkixFRUqXx0EfUWVf-YMyn1Vca5D4Yg=");
+  /* background-image:   url("../../images/HomeBG.png"); */
+  /* background-image: url("../../images/Home\ \(1\).png"); */
+  /* object-fit: cover; */
+}
+
+
+/* CSS Hack to trigger GPU for smooth transition */
+
+.covertext {
+  position: absolute;
+  top:350px;
+  left:0;
+  right: 0;
+  font-family: Poppins,Opens-serif;
+
+}
+
+.title1 {
+  color:white;
+  text-align:   center;
+  font-family: Poppins,Opens-serif;
+}
+
+/* .subtitle {
+  font-family: Verdana;
+  font-size: 23px;
+  color: #ffffff;
+  text-align: center;
+} */
+
+.explore {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.explore {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.explorebtn {
+  cursor: pointer;
+  border: 1px solid #1b4333;
+  padding: 14px 30px;
+  border-radius: 200px;
+  background-color: rgb(70, 88, 73);
+  border-color: #9DC183;
+  color: #ffffff;
+  font-family: Poppins, Opens-serif;
+  font-size: 20px;
+  transition: 200ms;
+}
+
+.explorebtn:hover {
+  background-color: #9DC183;
+  color: #000;
+}
+
+nav.navbar .container {
+  position: relative;
+  overflow: visible;
+}
+
+.navbar-logo {
+  text-align: center;
+  padding: 22px 0 34px;
+}
+
+.nav-link {
+  margin-right: 200px;
+}
+
+.nav-link {
+  padding-right: 150px;
+}
+
+
+.preview__header {
+  font-size: 12px;
+  height: 54px;
+  background-color: #262626;
+  z-index: 100;
+  line-height: 54px;
+  margin-bottom: 1px;
+}

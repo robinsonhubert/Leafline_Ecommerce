@@ -1,0 +1,47 @@
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div .row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 1px;
+   
+  }
+  div .box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    border-radius: 15px;
+    background: linear-gradient(to top, #23f234 50%, );
+    background-size: 100% 200%;
+    transition: all .10s;
+    
+  
+  }
+  div .box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px #6c744c
+    ;
+  }
+  div .box img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  
